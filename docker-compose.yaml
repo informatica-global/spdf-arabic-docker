@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   stirling-pdf:
-    image: spdf-arabic
+    image: ghcr.io/informatica-global/spdf-arabic-docker:main
     ports:
       - "8080:8080"
     #volumes:

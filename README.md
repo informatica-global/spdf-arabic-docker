@@ -23,4 +23,3 @@ To build locally:
 ```sh
 docker buildx build --progress=plain -t spdf-arabic .
 ```
-

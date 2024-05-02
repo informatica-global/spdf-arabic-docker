@@ -5,6 +5,7 @@ RUN echo "@testing https://dl-cdn.alpinelinux.org/alpine/edge/main" | tee -a /et
     apk add --no-cache \
     # You can add more language packages below 
     tesseract-ocr-data-ara \
+    && tesseract --list-langs \
     && mv /usr/share/tessdata/* /usr/share/tessdata-original/ \
     #for debugging only
     #&& ls -lah /usr/share/tessdata \

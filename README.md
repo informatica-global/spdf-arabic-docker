@@ -1,6 +1,6 @@
 # [Stirling PDF](https://stirlingtools.com/) Docker Container with Arabic OCR
 
-The Arabic OCR package is installed directly inside the container. This removes the need for an extra volume mount. This is very desirable to maintain the statelessness of the application for use in Kubernetes and scalable installations.
+This container is based on the official Stirling PDF container with the Arabic OCR package installed directly inside the container along with the English OCR. This removes the need for an extra volume mount. This makes it easier to install for Arabic-speaking users and maintains the statelessness of the application for use in Kubernetes and scalable installations.
 
 ## Running the server in Docker
 

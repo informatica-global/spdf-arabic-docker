@@ -21,5 +21,5 @@ http://localhost:8080
 To build locally:
 
 ```sh
-docker buildx build --progress=plain -t spdf-arabic .
+docker buildx build -t ghcr.io/informatica-global/spdf-arabic-docker .
 ```

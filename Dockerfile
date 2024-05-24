@@ -1,8 +1,5 @@
-FROM docker.io/frooodle/s-pdf:0.24.5
-RUN echo "@testing https://dl-cdn.alpinelinux.org/alpine/edge/main" | tee -a /etc/apk/repositories && \
-    echo "@testing https://dl-cdn.alpinelinux.org/alpine/edge/community" | tee -a /etc/apk/repositories && \
-    echo "@testing https://dl-cdn.alpinelinux.org/alpine/edge/testing" | tee -a /etc/apk/repositories && \
-    apk add --no-cache \
+FROM docker.io/frooodle/s-pdf:0.24.6
+RUN apk add --no-cache \
     # You can add more language packages below 
     tesseract-ocr-data-ara \
     && tesseract --list-langs \

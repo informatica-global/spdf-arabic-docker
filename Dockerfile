@@ -1,4 +1,4 @@
-FROM docker.io/frooodle/s-pdf:0.25.0
+FROM ghcr.io/stirling-tools/s-pdf:0.25.1-fat
 RUN apk add --no-cache \
     # You can add more language packages below 
     tesseract-ocr-data-ara \

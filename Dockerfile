@@ -1,4 +1,4 @@
-FROM ghcr.io/stirling-tools/s-pdf:0.25.1-fat
+FROM ghcr.io/stirling-tools/s-pdf:0.25.2-fat
 RUN apk add --no-cache \
     # You can add more language packages below 
     tesseract-ocr-data-ara \

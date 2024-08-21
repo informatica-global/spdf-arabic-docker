@@ -1,4 +1,4 @@
-FROM ghcr.io/stirling-tools/s-pdf:0.28.1
+FROM ghcr.io/stirling-tools/s-pdf:0.28.2
 RUN apk add --no-cache \
     # You can add more language packages below 
     font-awesome \

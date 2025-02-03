@@ -1,4 +1,4 @@
-FROM ghcr.io/stirling-tools/stirling-pdf:0.39.0
+FROM ghcr.io/stirling-tools/stirling-pdf:0.40.1
 LABEL maintainer="informatica-global.com <support@informatica-global.com>"
 LABEL org.opencontainers.image.title="Stirling PDF Arabic OCR"
 LABEL org.opencontainers.image.description="This Docker container is based on the official Stirling-PDF container with the Arabic OCR package installed directly inside the container along with the English OCR."
